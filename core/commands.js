@@ -6,9 +6,6 @@ function processCommand(message, client) {
   let primaryCommand = command.split(" ")[0];
   let arguments = command.split(" ").slice(1);
 
-  console.log(`Command received: ${primaryCommand}`);
-  console.log(`Arguments: ${arguments}`);
-
   if (message.channel.id === "516859846809616413") {
     devCommands(arguments, message, client, primaryCommand);
   }
@@ -135,7 +132,6 @@ function ideasCommand(arguments, message) {
 
       fs.readFile(path, 'utf8', (err, data) => {
         if (err) {
-          console.log("Here");
           console.log(err);
         } else {
           suggestionObject = JSON.parse(data);
@@ -159,7 +155,8 @@ function ideasCommand(arguments, message) {
               console.error(err);
               return;
             }
-            console.log('Suggestion Written');
+
+            message.channel.send(`Suggestion added to box! Thanks ${message.member.displayName}!`);
           });
         }
       });
@@ -180,7 +177,6 @@ function listIdeasCommand(arguments, message, client) {
     message.guild.roles.forEach(role => {
       //Assumed that roles higher than bot role are Admin, or should be allowed to see suggestions
       if (role.position > user.highestRole.position) {
-        console.log(role.name);
         permission = true;
       }
     });
