@@ -1,0 +1,103 @@
+{
+    "resourceGroups": [
+        {
+            "discipline": "Programming",
+            "resources": [
+                {
+                    "id": "185614791270727680",
+                    "user": "Emulai (David)",
+                    "resource": "https://stackoverflow.com"
+                },
+                {
+                    "id": "123435943838482432",
+                    "user": "Božidar (Boško) Zukor",
+                    "resource": "https://open.gl/"
+                },
+                {
+                    "id": "123435943838482432",
+                    "user": "Božidar (Boško) Zukor",
+                    "resource": "http://www.opengl-tutorial.org/"
+                },
+                {
+                    "id": "123435943838482432",
+                    "user": "Božidar (Boško) Zukor",
+                    "resource": "http://onelonecoder.com/"
+                },
+                {
+                    "id": "123435943838482432",
+                    "user": "Božidar (Boško) Zukor",
+                    "resource": "https://learnopengl.com/"
+                },
+                {
+                    "id": "123435943838482432",
+                    "user": "Božidar (Boško) Zukor",
+                    "resource": "http://www.lighthouse3d.com/tutorials/glut-tutorial/"
+                },
+                {
+                    "id": "123435943838482432",
+                    "user": "Božidar (Boško) Zukor",
+                    "resource": "http://www.lighthouse3d.com/tutorials/maths/"
+                },
+                {
+                    "id": "123435943838482432",
+                    "user": "Božidar (Boško) Zukor",
+                    "resource": "https://www.ntu.edu.sg/home/ehchua/programming/index.html"
+                }
+            ]
+        },
+        {
+            "discipline": "Modelling",
+            "resources": [
+                {
+                    "id": "123435943838482432",
+                    "user": "Božidar (Boško) Zukor",
+                    "resource": "https://www.youtube.com/user/MikeHermes65"
+                },
+                {
+                    "id": "123435943838482432",
+                    "user": "Božidar (Boško) Zukor",
+                    "resource": "https://www.youtube.com/user/AndrewPPrice"
+                }
+            ]
+        },
+        {
+            "discipline": "Texturing",
+            "resources": [
+                {
+                    "id": "185614791270727680",
+                    "user": "Emulai (David)",
+                    "resource": "https://cc0textures.com/"
+                },
+                {
+                    "id": "123435943838482432",
+                    "user": "Božidar (Boško) Zukor",
+                    "resource": "https://texturehaven.com/"
+                },
+                {
+                    "id": "123435943838482432",
+                    "user": "Božidar (Boško) Zukor",
+                    "resource": "https://hdrihaven.com/"
+                },
+                {
+                    "id": "123435943838482432",
+                    "user": "Božidar (Boško) Zukor",
+                    "resource": "https://www.cgbookcase.com/"
+                }
+            ]
+        },
+        {
+            "discipline": "Audio",
+            "resources": []
+        },
+        {
+            "discipline": "SourceControl",
+            "resources": [
+                {
+                    "id": "185614791270727680",
+                    "user": "Emulai (David)",
+                    "resource": "https://thoughtbot.com/blog/how-to-git-with-unity"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "cobb",
+  "version": "1.0.0",
+  "description": "Discord Utility Bot",
+  "main": "root.js",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emulai/cobb-party.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "David Nankivell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emulai/cobb-party/issues"
+  },
+  "homepage": "https://github.com/Emulai/cobb-party#readme"
+}
