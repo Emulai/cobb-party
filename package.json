@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "run"
+    "ec2": "ssh -i 'CobbEC2.pem' ubuntu@ec2-54-252-236-32.ap-southeast-2.compute.amazonaws.com"
   },
   "repository": {
     "type": "git",
