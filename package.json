@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "ec2": "ssh -i 'CobbEC2.pem' ubuntu@ec2-54-252-236-32.ap-southeast-2.compute.amazonaws.com"
+    "ec2": "ssh -i 'CobbEC2.pem' ubuntu@ec2-54-252-236-32.ap-southeast-2.compute.amazonaws.com",
+    "start": "node root.js > logs/cobbout.txt 2> logs/cobberr.txt &"
   },
   "repository": {
     "type": "git",
